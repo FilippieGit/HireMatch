@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">HireMatch</string>
     <string name="hirematch">HireMatch</string>
+    <string name="icone_de_pessoa">icone de pessoa</string>
+    <string name="icone_de_cadeado">icone de cadeado</string>
+    <string name="esqueci_a_senha">Esqueci a senha</string>
+    <string name="criar_conta">Criar conta</string>
 </resources>

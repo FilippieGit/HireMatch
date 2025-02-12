@@ -3,29 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:orientation="vertical"
-    android:gravity="center_vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_margin="100dp"
     tools:context=".SplashActivity">
 
     <ImageView
+        android:id="@+id/imgSplashLogo"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/partners"/>
+        android:src="@drawable/partners" />
 
     <TextView
+        android:id="@+id/txtSplashHireMatch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hirematch"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:textSize="35sp"
         android:fontFamily="@font/author"
-        android:textStyle="normal"/>
-    <ProgressBar
-        android:layout_width="wrap_content"
+        android:text="@string/hirematch"
+        android:textSize="35sp"
+        android:textStyle="normal" />
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progressbarSplash"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:indeterminate="true" />
 
 </LinearLayout>
