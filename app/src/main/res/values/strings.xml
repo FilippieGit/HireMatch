@@ -5,4 +5,13 @@
     <string name="icone_de_cadeado">icone de cadeado</string>
     <string name="esqueci_a_senha">Esqueci a senha</string>
     <string name="criar_conta">Criar conta</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="e_mail">E-mail</string>
+    <string name="login">Login</string>
+    <string name="criar_conta_cadastro">Criar conta</string>
+    <string name="confirmar_e_mail">Confirmar E-mail</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="enviar">Enviar</string>
 </resources>

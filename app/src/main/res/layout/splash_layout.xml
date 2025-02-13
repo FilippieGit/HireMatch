@@ -18,11 +18,12 @@
         android:src="@drawable/partners" />
 
     <TextView
+        android:layout_marginBottom="15dp"
         android:id="@+id/txtSplashHireMatch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:fontFamily="@font/author"
         android:text="@string/hirematch"
         android:textSize="35sp"
@@ -32,7 +33,7 @@
         android:id="@+id/progressbarSplash"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:indeterminate="true" />
 
 </LinearLayout>
